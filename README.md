@@ -1,1 +1,3 @@
 # Temperature-Anomaly-Detection
+
+The goal of Unsupervised Anomaly Detection is to identify uncommon objects or events that haven't been encountered before, without any prior knowledge about them. The only available information is that the proportion of anomalies in the dataset is typically small, often less than 1%. Since anomalies are both rare and unknown during training, the challenge in anomaly detection primarily involves modeling the distribution of normal data and establishing a criterion within this space to classify samples as either anomalous or normal. In high-dimensional data like images, the effectiveness of distances in the original space diminishes rapidly (due to the curse of dimensionality), necessitating a mapping to a more suitable space.
